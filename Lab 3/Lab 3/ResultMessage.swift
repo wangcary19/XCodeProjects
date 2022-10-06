@@ -72,8 +72,11 @@ func findSuit(val:Int, abbrev:String) -> String {
     else if abbrev == "h" {
         return " of hearts"
     }
-    else {
+    else if abbrev == "d"{
         return " of diamonds"
+    }
+    else {
+        return " of null"
     }
 }
 
