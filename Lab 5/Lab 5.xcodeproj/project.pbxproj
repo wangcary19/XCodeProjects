@@ -16,6 +16,7 @@
 		58ED558828F6805700366BE2 /* Lab_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED558728F6805700366BE2 /* Lab_5Tests.swift */; };
 		58ED559228F6805700366BE2 /* Lab_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED559128F6805700366BE2 /* Lab_5UITests.swift */; };
 		58ED559428F6805700366BE2 /* Lab_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED559328F6805700366BE2 /* Lab_5UITestsLaunchTests.swift */; };
+		58ED55A128F6849B00366BE2 /* WeatherCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED55A028F6849B00366BE2 /* WeatherCityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		58ED558D28F6805700366BE2 /* Lab 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58ED559128F6805700366BE2 /* Lab_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_5UITests.swift; sourceTree = "<group>"; };
 		58ED559328F6805700366BE2 /* Lab_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58ED55A028F6849B00366BE2 /* WeatherCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				58ED557128F6805600366BE2 /* Lab_5App.swift */,
 				58ED557328F6805600366BE2 /* ContentView.swift */,
+				58ED55A028F6849B00366BE2 /* WeatherCityView.swift */,
 				58ED557528F6805700366BE2 /* Assets.xcassets */,
 				58ED557A28F6805700366BE2 /* Persistence.swift */,
 				58ED557C28F6805700366BE2 /* Lab_5.xcdatamodeld */,
@@ -265,6 +268,7 @@
 			files = (
 				58ED557B28F6805700366BE2 /* Persistence.swift in Sources */,
 				58ED557E28F6805700366BE2 /* Lab_5.xcdatamodeld in Sources */,
+				58ED55A128F6849B00366BE2 /* WeatherCityView.swift in Sources */,
 				58ED557428F6805600366BE2 /* ContentView.swift in Sources */,
 				58ED557228F6805600366BE2 /* Lab_5App.swift in Sources */,
 			);
