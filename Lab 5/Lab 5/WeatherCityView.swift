@@ -8,7 +8,6 @@ struct WeatherCityView: View {
     var cityCode: String
     
     let urlString = "http://w1.weather.gov/xml/current_obs/" + cityCode + ".xml"
-        
     guard let url = URL(string: urlString)
     else {
         print("Hey Man, THIS URL DOES NOT WORK!")
