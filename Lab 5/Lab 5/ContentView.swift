@@ -16,13 +16,7 @@ struct ContentView: View {
         NavigationView {
                     
            VStack {
-                   
-               //--------------------------------------------------------------------
-               Button(action: {
-                       
-                        // no Swift code yet
-                       
-               } , label: {
+               Button(action: {} , label: {
                    NavigationLink(destination: WeatherCityView(cityCode: "KBOS")) {
                            Text("BOSTON")
                                .padding()
@@ -31,12 +25,7 @@ struct ContentView: View {
                    }
                }) // end button
                
-               //---------------------------------------------------------------------
-               Button(action: {
-                   
-                    // no Swift code yet
-                   
-               } , label: {
+               Button(action: {} , label: {
                    NavigationLink(destination: WeatherCityView(cityCode: "KNYC")) {
                        Text("NEW YORK CITY")
                            .padding()
@@ -44,13 +33,8 @@ struct ContentView: View {
                            .font(.largeTitle)
                    }
                }) // end button
-            
-               //---------------------------------------------------------------------
-               Button(action: {
-                   
-                    // no Swift code yet
-                   
-               } , label: {
+
+               Button(action: {} , label: {
                    NavigationLink(destination: WeatherCityView(cityCode: "KMIA")) {
                        Text("MIAMI")
                            .padding()
@@ -58,14 +42,55 @@ struct ContentView: View {
                            .font(.largeTitle)
                    }
                }) // end button
-                
+            
+               Button(action: {} , label: {
+                   NavigationLink(destination: WeatherCityView(cityCode: "KDAL")) {
+                       Text("DALLAS")
+                           .padding()
+                           .foregroundColor(Color.blue)
+                           .font(.largeTitle)
+                   }
+               })
+               
+               Button(action: {} , label: {
+                   NavigationLink(destination: WeatherCityView(cityCode: "KDEN")) {
+                       Text("DENVER")
+                           .padding()
+                           .foregroundColor(Color.blue)
+                           .font(.largeTitle)
+                   }
+               })
+               
+               Button(action: {} , label: {
+                   NavigationLink(destination: WeatherCityView(cityCode: "KLAX")) {
+                       Text("LOS ANGELES")
+                           .padding()
+                           .foregroundColor(Color.blue)
+                           .font(.largeTitle)
+                   }
+               })
+               Button(action: {} , label: {
+                   NavigationLink(destination: WeatherCityView(cityCode: "KSEA")) {
+                       Text("SEATTLE")
+                           .padding()
+                           .foregroundColor(Color.blue)
+                           .font(.largeTitle)
+                   }
+               })
+               Button(action: {} , label: {
+                   NavigationLink(destination: WeatherCityView(cityCode: "KDET")) {
+                       Text("DETROIT")
+                           .padding()
+                           .foregroundColor(Color.blue)
+                           .font(.largeTitle)
+                   }
+               })
            } // end VStack
-           .navigationTitle("WEATHER - CITIES")
+           .navigationTitle("Weather - Cities")
                     
         } // end navigation view
         
-    }
-    // end body
+    } // end body
      
 } // end struct
 
