@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5811B4C22901252100321AEA /* ShelffleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4C12901252100321AEA /* ShelffleApp.swift */; };
+		5811B4C42901252100321AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4C32901252100321AEA /* ContentView.swift */; };
+		5811B4C62901252200321AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5811B4C52901252200321AEA /* Assets.xcassets */; };
+		5811B4C92901252200321AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5811B4C82901252200321AEA /* Preview Assets.xcassets */; };
+		5811B4CB2901252200321AEA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4CA2901252200321AEA /* Persistence.swift */; };
+		5811B4CE2901252200321AEA /* Shelffle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4CC2901252200321AEA /* Shelffle.xcdatamodeld */; };
+		5811B4D82901252200321AEA /* ShelffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4D72901252200321AEA /* ShelffleTests.swift */; };
+		5811B4E22901252200321AEA /* ShelffleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4E12901252200321AEA /* ShelffleUITests.swift */; };
+		5811B4E42901252200321AEA /* ShelffleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4E32901252200321AEA /* ShelffleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5811B4D42901252200321AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5811B4B62901252100321AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5811B4BD2901252100321AEA;
+			remoteInfo = Shelffle;
+		};
+		5811B4DE2901252200321AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5811B4B62901252100321AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5811B4BD2901252100321AEA;
+			remoteInfo = Shelffle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5811B4BE2901252100321AEA /* Shelffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shelffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5811B4C12901252100321AEA /* ShelffleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelffleApp.swift; sourceTree = "<group>"; };
+		5811B4C32901252100321AEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5811B4C52901252200321AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5811B4C82901252200321AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5811B4CA2901252200321AEA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5811B4CD2901252200321AEA /* Shelffle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shelffle.xcdatamodel; sourceTree = "<group>"; };
+		5811B4D32901252200321AEA /* ShelffleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShelffleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5811B4D72901252200321AEA /* ShelffleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelffleTests.swift; sourceTree = "<group>"; };
+		5811B4DD2901252200321AEA /* ShelffleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShelffleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5811B4E12901252200321AEA /* ShelffleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelffleUITests.swift; sourceTree = "<group>"; };
+		5811B4E32901252200321AEA /* ShelffleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelffleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5811B4BB2901252100321AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5811B4D02901252200321AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5811B4DA2901252200321AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5811B4B52901252100321AEA = {
+			isa = PBXGroup;
+			children = (
+				5811B4C02901252100321AEA /* Shelffle */,
+				5811B4D62901252200321AEA /* ShelffleTests */,
+				5811B4E02901252200321AEA /* ShelffleUITests */,
+				5811B4BF2901252100321AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5811B4BF2901252100321AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5811B4BE2901252100321AEA /* Shelffle.app */,
+				5811B4D32901252200321AEA /* ShelffleTests.xctest */,
+				5811B4DD2901252200321AEA /* ShelffleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5811B4C02901252100321AEA /* Shelffle */ = {
+			isa = PBXGroup;
+			children = (
+				5811B4C12901252100321AEA /* ShelffleApp.swift */,
+				5811B4C32901252100321AEA /* ContentView.swift */,
+				5811B4C52901252200321AEA /* Assets.xcassets */,
+				5811B4CA2901252200321AEA /* Persistence.swift */,
+				5811B4CC2901252200321AEA /* Shelffle.xcdatamodeld */,
+				5811B4C72901252200321AEA /* Preview Content */,
+			);
+			path = Shelffle;
+			sourceTree = "<group>";
+		};
+		5811B4C72901252200321AEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5811B4C82901252200321AEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5811B4D62901252200321AEA /* ShelffleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5811B4D72901252200321AEA /* ShelffleTests.swift */,
+			);
+			path = ShelffleTests;
+			sourceTree = "<group>";
+		};
+		5811B4E02901252200321AEA /* ShelffleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5811B4E12901252200321AEA /* ShelffleUITests.swift */,
+				5811B4E32901252200321AEA /* ShelffleUITestsLaunchTests.swift */,
+			);
+			path = ShelffleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5811B4BD2901252100321AEA /* Shelffle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5811B4E72901252200321AEA /* Build configuration list for PBXNativeTarget "Shelffle" */;
+			buildPhases = (
+				5811B4BA2901252100321AEA /* Sources */,
+				5811B4BB2901252100321AEA /* Frameworks */,
+				5811B4BC2901252100321AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shelffle;
+			productName = Shelffle;
+			productReference = 5811B4BE2901252100321AEA /* Shelffle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5811B4D22901252200321AEA /* ShelffleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5811B4EA2901252200321AEA /* Build configuration list for PBXNativeTarget "ShelffleTests" */;
+			buildPhases = (
+				5811B4CF2901252200321AEA /* Sources */,
+				5811B4D02901252200321AEA /* Frameworks */,
+				5811B4D12901252200321AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5811B4D52901252200321AEA /* PBXTargetDependency */,
+			);
+			name = ShelffleTests;
+			productName = ShelffleTests;
+			productReference = 5811B4D32901252200321AEA /* ShelffleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5811B4DC2901252200321AEA /* ShelffleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5811B4ED2901252200321AEA /* Build configuration list for PBXNativeTarget "ShelffleUITests" */;
+			buildPhases = (
+				5811B4D92901252200321AEA /* Sources */,
+				5811B4DA2901252200321AEA /* Frameworks */,
+				5811B4DB2901252200321AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5811B4DF2901252200321AEA /* PBXTargetDependency */,
+			);
+			name = ShelffleUITests;
+			productName = ShelffleUITests;
+			productReference = 5811B4DD2901252200321AEA /* ShelffleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5811B4B62901252100321AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5811B4BD2901252100321AEA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					5811B4D22901252200321AEA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5811B4BD2901252100321AEA;
+					};
+					5811B4DC2901252200321AEA = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5811B4BD2901252100321AEA;
+					};
+				};
+			};
+			buildConfigurationList = 5811B4B92901252100321AEA /* Build configuration list for PBXProject "Shelffle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5811B4B52901252100321AEA;
+			productRefGroup = 5811B4BF2901252100321AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5811B4BD2901252100321AEA /* Shelffle */,
+				5811B4D22901252200321AEA /* ShelffleTests */,
+				5811B4DC2901252200321AEA /* ShelffleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5811B4BC2901252100321AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5811B4C92901252200321AEA /* Preview Assets.xcassets in Resources */,
+				5811B4C62901252200321AEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5811B4D12901252200321AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5811B4DB2901252200321AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5811B4BA2901252100321AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5811B4CB2901252200321AEA /* Persistence.swift in Sources */,
+				5811B4C42901252100321AEA /* ContentView.swift in Sources */,
+				5811B4CE2901252200321AEA /* Shelffle.xcdatamodeld in Sources */,
+				5811B4C22901252100321AEA /* ShelffleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5811B4CF2901252200321AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5811B4D82901252200321AEA /* ShelffleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5811B4D92901252200321AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5811B4E42901252200321AEA /* ShelffleUITestsLaunchTests.swift in Sources */,
+				5811B4E22901252200321AEA /* ShelffleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5811B4D52901252200321AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5811B4BD2901252100321AEA /* Shelffle */;
+			targetProxy = 5811B4D42901252200321AEA /* PBXContainerItemProxy */;
+		};
+		5811B4DF2901252200321AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5811B4BD2901252100321AEA /* Shelffle */;
+			targetProxy = 5811B4DE2901252200321AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5811B4E52901252200321AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5811B4E62901252200321AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5811B4E82901252200321AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shelffle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CISC-5140-Mobile-Device-Programming.Shelffle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5811B4E92901252200321AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shelffle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CISC-5140-Mobile-Device-Programming.Shelffle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5811B4EB2901252200321AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CISC-5140-Mobile-Device-Programming.ShelffleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shelffle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shelffle";
+			};
+			name = Debug;
+		};
+		5811B4EC2901252200321AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CISC-5140-Mobile-Device-Programming.ShelffleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shelffle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shelffle";
+			};
+			name = Release;
+		};
+		5811B4EE2901252200321AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CISC-5140-Mobile-Device-Programming.ShelffleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shelffle;
+			};
+			name = Debug;
+		};
+		5811B4EF2901252200321AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CISC-5140-Mobile-Device-Programming.ShelffleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shelffle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5811B4B92901252100321AEA /* Build configuration list for PBXProject "Shelffle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5811B4E52901252200321AEA /* Debug */,
+				5811B4E62901252200321AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5811B4E72901252200321AEA /* Build configuration list for PBXNativeTarget "Shelffle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5811B4E82901252200321AEA /* Debug */,
+				5811B4E92901252200321AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5811B4EA2901252200321AEA /* Build configuration list for PBXNativeTarget "ShelffleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5811B4EB2901252200321AEA /* Debug */,
+				5811B4EC2901252200321AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5811B4ED2901252200321AEA /* Build configuration list for PBXNativeTarget "ShelffleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5811B4EE2901252200321AEA /* Debug */,
+				5811B4EF2901252200321AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5811B4CC2901252200321AEA /* Shelffle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5811B4CD2901252200321AEA /* Shelffle.xcdatamodel */,
+			);
+			currentVersion = 5811B4CD2901252200321AEA /* Shelffle.xcdatamodel */;
+			path = Shelffle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5811B4B62901252100321AEA /* Project object */;
+}
