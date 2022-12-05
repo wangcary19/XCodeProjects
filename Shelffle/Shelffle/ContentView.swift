@@ -15,7 +15,9 @@ import CoreData
 var isLight: Bool = false
 var font: String = ""
 var fsize: CGFloat = 16
-var randomize_authors: Bool = true
+var author:String = ""
+var authorTitles = [Title]()
+var poem = [Poem]()
 
 //Custom colors for light and dark modes
 extension Color {
@@ -28,8 +30,9 @@ extension Color {
 //--------------------------------------------------------------------------------------------
 //User interface
 struct ContentView: View {
+    @State var poems: [Poem] = []
+    
     var body: some View {
-        
         //Background
         ZStack {
             Color.BackgroundColor.ignoresSafeArea()
@@ -46,14 +49,21 @@ struct ContentView: View {
                 //Title
                 HStack {
                     Spacer()
-                    Text("Hope is the thing with feathers")
+                    List(poems) {p in Text(p.title)}
+                        .onAppear {
+                            API().getTitles { (poems) in
+                                self.poems = poems
+                            }
+                        }
+                    /*
                         .foregroundColor(Color.TextColor)
                         .bold()
                         .font(.title)
                         .frame(width: 360, height: 75, alignment: .topLeading)
+                     */
                 }
                 
-                //Author, with live biography link
+                //Author
                 HStack {
                     Spacer()
                     Button {
@@ -103,7 +113,6 @@ struct ContentView: View {
                     Spacer()
                     Spacer()
                 } //end HStack for settings
-                
             }//end VStack for text and settings
         }//end ZStack for background
     }//end body view

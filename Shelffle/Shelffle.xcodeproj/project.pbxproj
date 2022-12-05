@@ -16,6 +16,7 @@
 		5811B4D82901252200321AEA /* ShelffleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4D72901252200321AEA /* ShelffleTests.swift */; };
 		5811B4E22901252200321AEA /* ShelffleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4E12901252200321AEA /* ShelffleUITests.swift */; };
 		5811B4E42901252200321AEA /* ShelffleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811B4E32901252200321AEA /* ShelffleUITestsLaunchTests.swift */; };
+		58D9D0F7290DF9030094032C /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D9D0F6290DF9030094032C /* FetchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		5811B4DD2901252200321AEA /* ShelffleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShelffleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5811B4E12901252200321AEA /* ShelffleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelffleUITests.swift; sourceTree = "<group>"; };
 		5811B4E32901252200321AEA /* ShelffleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelffleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58D9D0F6290DF9030094032C /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			children = (
 				5811B4C12901252100321AEA /* ShelffleApp.swift */,
 				5811B4C32901252100321AEA /* ContentView.swift */,
-				5811B4C52901252200321AEA /* Assets.xcassets */,
+				58D9D0F6290DF9030094032C /* FetchData.swift */,
 				5811B4CA2901252200321AEA /* Persistence.swift */,
+				5811B4C52901252200321AEA /* Assets.xcassets */,
 				5811B4CC2901252200321AEA /* Shelffle.xcdatamodeld */,
 				5811B4C72901252200321AEA /* Preview Content */,
 			);
@@ -265,6 +268,7 @@
 			files = (
 				5811B4CB2901252200321AEA /* Persistence.swift in Sources */,
 				5811B4C42901252100321AEA /* ContentView.swift in Sources */,
+				58D9D0F7290DF9030094032C /* FetchData.swift in Sources */,
 				5811B4CE2901252200321AEA /* Shelffle.xcdatamodeld in Sources */,
 				5811B4C22901252100321AEA /* ShelffleApp.swift in Sources */,
 			);
